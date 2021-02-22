@@ -27,4 +27,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+<<<<<<< HEAD
+
+# t-piggy
+
+Forex traders savings app (Piggy bank for traders)
+
+> > > > > > > 3ea84b3b575aa0f589be9e4c0ccc78a82c92a37d
