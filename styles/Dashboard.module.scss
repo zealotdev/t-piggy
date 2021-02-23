@@ -1,0 +1,29 @@
+@import './utils.scss';
+
+.container {
+  padding: 2rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.header {
+  background-color: $greyShade;
+}
+.title,
+.mark {
+  padding: 1.6rem 0.5rem 1.6rem 2rem;
+}
+
+.marker {
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 0.4rem;
+  border: 0.2rem solid grey;
+  cursor: pointer;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
