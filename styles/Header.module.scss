@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3rem;
+  color: rgb(202, 82, 13);
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  margin-right: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 0.6rem;
+}
+
+.name {
+  font-size: 1.4rem;
+}
