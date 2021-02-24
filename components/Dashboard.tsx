@@ -1,5 +1,5 @@
-import AddIcon from '@material-ui/icons/Add';
 
+import AddIcon from '@material-ui/icons/Add';
 import styles from './../styles/Dashboard.module.scss';
 import Account from './Account';
 
@@ -40,5 +40,6 @@ export default function Dashboard() {
         </div>
       </div>
     </div>
+
   );
 }
