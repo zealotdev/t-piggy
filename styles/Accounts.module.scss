@@ -1,0 +1,88 @@
+@import './Dashboard.module.scss';
+.trow {
+  &:not(:last-child) {
+    border-bottom: 0.1px solid darken($greyShade, 10);
+  }
+  &:hover {
+    background-color: $greyShade;
+    cursor: pointer;
+  }
+}
+.tdata {
+  font-size: 1.4rem;
+}
+.mark {
+  padding-left: 2rem;
+}
+
+.accountTitle {
+  font-size: 1.4rem;
+}
+.desc {
+  font-size: 1.2rem;
+}
+.labelColor {
+  height: 0.6rem;
+  width: 0.6rem;
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+.tSavings {
+  display: flex;
+  font-size: 1.4rem;
+  padding: 1.6rem 0.5rem 1.6rem 0rem;
+
+  & > span {
+    margin-right: 4rem;
+  }
+  & > form {
+    display: flex;
+    & > input[type='number'] {
+      width: 10rem;
+      border: none;
+      border-bottom: 0.1rem solid $blue;
+      padding: 0.4rem 0.2rem;
+      outline: none;
+      margin-right: 1rem;
+      background-color: transparent;
+    }
+
+    & > .submit {
+      position: relative;
+      border: none;
+      background-color: transparent;
+      color: $blue;
+      cursor: pointer;
+      font-style: italic;
+      font: 1.5rem;
+      outline: none;
+
+      &:hover {
+        font-style: normal;
+      }
+    }
+  }
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: $greyShade;
+  color: darken($greyShade, 60);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  left: 2rem;
+  z-index: 1;
+}
+
+.submit:hover .tooltiptext {
+  visibility: visible;
+}
