@@ -1,0 +1,24 @@
+@import './Home.module.scss';
+
+.main {
+  padding: 0;
+}
+.header {
+  width: 100%;
+  padding: 1rem 0 0 2rem;
+  background-color: black;
+  color: #fff;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.authCard {
+  width: 50rem;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  border-radius: 0.4rem;
+  background-color: $greyShade;
+  border: 1.5px solid rgba(192, 189, 189, 0.8);
+}
