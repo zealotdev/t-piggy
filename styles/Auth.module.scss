@@ -1,7 +1,9 @@
 @import './Home.module.scss';
-
+@import './form.module.scss';
 .main {
   padding: 0;
+  padding-bottom: 4rem;
+  height: auto;
 }
 .header {
   width: 100%;
