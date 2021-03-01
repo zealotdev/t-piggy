@@ -1,0 +1,11 @@
+@import './form.module.scss';
+
+.formCard {
+  display: flex;
+  flex-direction: column;
+
+  &Title {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
